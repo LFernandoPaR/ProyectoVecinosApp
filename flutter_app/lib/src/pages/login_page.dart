@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ProfilePage extends StatelessWidget {
+class LoginPage extends StatelessWidget {
   
   @override
 Widget build(BuildContext context) {
-  var appBar2 = AppBar(
-      title: Text('Perfil'),
-      leading:  Builder(
+  return Scaffold(
+    appBar: AppBar(
+      title: Text('Login'),
+       leading:  Builder(
     builder: (BuildContext context) {
       return IconButton(
         icon: const Icon(Icons.arrow_back_ios_outlined),
@@ -16,10 +17,8 @@ Widget build(BuildContext context) {
       );
     },
   ),
-      
-    );
-  return Scaffold(
-    appBar: appBar2,
+     
+    ),
   ) ;
 }
 
