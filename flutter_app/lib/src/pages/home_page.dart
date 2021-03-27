@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:flutter_app/src/pages/profile_page.dart';
+//import 'package:flutter_app/src/pages/profile_page.dart';
 import 'package:flutter_app/src/pages/status_page.dart';
 
 class HomePage extends StatelessWidget{
